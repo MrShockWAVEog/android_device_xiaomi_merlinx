@@ -1,2 +1,6 @@
 # RIL
 ro.product.marketname=Redmi Note 9
+
+# Device Information
+ro.infinity.soc=MediaTek Helio G85
+ro.infinity.camera=48MP + 8MP + 2MP + 2MP
