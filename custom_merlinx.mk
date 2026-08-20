@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/merlinx/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_merlinx
+PRODUCT_NAME := custom_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
