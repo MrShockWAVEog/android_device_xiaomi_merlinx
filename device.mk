@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMerlinx \
+    SettingsOverlayMerlinx \
     SettingsProviderOverlayMerlinx \
     SystemUIOverlayMerlinx
 
