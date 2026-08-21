@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayMerlinx \
     FrameworksResOverlayMerlinx \
+    SettingsOverlayMerlinx \
     SettingsProviderOverlayMerlinx \
     SystemUIOverlayMerlinx
 
