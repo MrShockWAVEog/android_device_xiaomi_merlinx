@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_merlinx.mk
+    $(LOCAL_DIR)/clover_merlinx.mk
+
+COMMON_LUNCH_CHOICES := \
+    clover_merlinx-cp2a-userdebug
