@@ -7,6 +7,10 @@
 # Inherit from mt6768-common
 $(call inherit-product, device/xiaomi/mt6768-common/mt6768.mk)
 
+# Axion camera specifications
+AXION_CAMERA_REAR_INFO := 48,8,8,2
+AXION_CAMERA_FRONT_INFO := 8
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
