@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_merlinx.mk
+    $(LOCAL_DIR)/merlinx.mk
