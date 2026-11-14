@@ -76,6 +76,9 @@ mkdir /data/vendor/secure_element 0770 nfc nfc
     copy /vendor/etc/camera/model/bokeh_model/segment_model /data/vendor/camera/model/bokeh_model/segment_model
     chmod 0777 /data/vendor/camera/model/bokeh_model/segment_model
 
+    # Apply the camera-private labels to existing and newly copied calibration/models.
+    restorecon_recursive /data/vendor/camera
+
 #XIAOMI_WATERMARK
     mkdir /vendor/etc/camera 0777 system camera
 
