@@ -62,6 +62,7 @@ blob_fixups: blob_fixups_user_type = {
     (
         'vendor/lib64/libmibokeh_mt6768.so',
         'vendor/lib64/libarcsoft_supernight.so',
+        'vendor/lib64/libmtkcam_3rdparty.customer.so',
     ): blob_fixup()
         .call(blob_fixup_leica_camera),
     'vendor/bin/hw/mtkfusionrild' : blob_fixup()
