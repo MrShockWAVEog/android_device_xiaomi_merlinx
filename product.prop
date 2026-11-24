@@ -1,2 +1,8 @@
 # RIL
 ro.product.marketname=Redmi Note 9
+
+# MistOS About phone
+ro.mist.device.name=Redmi Note 9
+ro.mist.soc=MediaTek Helio G85
+ro.mist.camera=48MP + 8MP + 2MP + 2MP
+ro.mist.front=13MP
